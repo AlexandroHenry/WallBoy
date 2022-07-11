@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA26E08D287C7AEF00C537F7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26E08C287C7AEF00C537F7 /* Home.swift */; };
+		AA93DD8B287BB9C400C17FCE /* WallBoyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93DD8A287BB9C400C17FCE /* WallBoyApp.swift */; };
+		AA93DD8D287BB9C400C17FCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93DD8C287BB9C400C17FCE /* ContentView.swift */; };
+		AA93DD8F287BB9C500C17FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA93DD8E287BB9C500C17FCE /* Assets.xcassets */; };
+		AA93DD92287BB9C500C17FCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA93DD91287BB9C500C17FCE /* Preview Assets.xcassets */; };
+		AA93DD9A287BBAFE00C17FCE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA93DD99287BBAFE00C17FCE /* GoogleService-Info.plist */; };
+		AA93DD9D287BBB3100C17FCE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AA93DD9C287BBB3100C17FCE /* FirebaseAuth */; };
+		AA93DDA0287BBB8000C17FCE /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = AA93DD9F287BBB8000C17FCE /* GoogleSignIn */; };
+		AA93DDA3287BBCB200C17FCE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93DDA2287BBCB200C17FCE /* LoginView.swift */; };
+		AA93DDB2287C529100C17FCE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93DDB1287C529100C17FCE /* BaseView.swift */; };
+		AA93DDB4287C530400C17FCE /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93DDB3287C530400C17FCE /* SideMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA26E08C287C7AEF00C537F7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AA93DD87287BB9C400C17FCE /* WallBoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallBoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA93DD8A287BB9C400C17FCE /* WallBoyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallBoyApp.swift; sourceTree = "<group>"; };
+		AA93DD8C287BB9C400C17FCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA93DD8E287BB9C500C17FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA93DD91287BB9C500C17FCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA93DD99287BBAFE00C17FCE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AA93DDA1287BBBB900C17FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AA93DDA2287BBCB200C17FCE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AA93DDB1287C529100C17FCE /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		AA93DDB3287C530400C17FCE /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA93DD84287BB9C400C17FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA93DD9D287BBB3100C17FCE /* FirebaseAuth in Frameworks */,
+				AA93DDA0287BBB8000C17FCE /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA93DD7E287BB9C400C17FCE = {
+			isa = PBXGroup;
+			children = (
+				AA93DD89287BB9C400C17FCE /* WallBoy */,
+				AA93DD88287BB9C400C17FCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA93DD88287BB9C400C17FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA93DD87287BB9C400C17FCE /* WallBoy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA93DD89287BB9C400C17FCE /* WallBoy */ = {
+			isa = PBXGroup;
+			children = (
+				AA93DDA1287BBBB900C17FCE /* Info.plist */,
+				AA93DD99287BBAFE00C17FCE /* GoogleService-Info.plist */,
+				AA93DD98287BB9DE00C17FCE /* View */,
+				AA93DD8A287BB9C400C17FCE /* WallBoyApp.swift */,
+				AA93DD8C287BB9C400C17FCE /* ContentView.swift */,
+				AA93DD8E287BB9C500C17FCE /* Assets.xcassets */,
+				AA93DD90287BB9C500C17FCE /* Preview Content */,
+			);
+			path = WallBoy;
+			sourceTree = "<group>";
+		};
+		AA93DD90287BB9C500C17FCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA93DD91287BB9C500C17FCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA93DD98287BB9DE00C17FCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA93DDA2287BBCB200C17FCE /* LoginView.swift */,
+				AA93DDB1287C529100C17FCE /* BaseView.swift */,
+				AA93DDB3287C530400C17FCE /* SideMenu.swift */,
+				AA26E08C287C7AEF00C537F7 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA93DD86287BB9C400C17FCE /* WallBoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA93DD95287BB9C500C17FCE /* Build configuration list for PBXNativeTarget "WallBoy" */;
+			buildPhases = (
+				AA93DD83287BB9C400C17FCE /* Sources */,
+				AA93DD84287BB9C400C17FCE /* Frameworks */,
+				AA93DD85287BB9C400C17FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallBoy;
+			packageProductDependencies = (
+				AA93DD9C287BBB3100C17FCE /* FirebaseAuth */,
+				AA93DD9F287BBB8000C17FCE /* GoogleSignIn */,
+			);
+			productName = WallBoy;
+			productReference = AA93DD87287BB9C400C17FCE /* WallBoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA93DD7F287BB9C400C17FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AA93DD86287BB9C400C17FCE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AA93DD82287BB9C400C17FCE /* Build configuration list for PBXProject "WallBoy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA93DD7E287BB9C400C17FCE;
+			packageReferences = (
+				AA93DD9B287BBB3100C17FCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AA93DD9E287BBB8000C17FCE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = AA93DD88287BB9C400C17FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA93DD86287BB9C400C17FCE /* WallBoy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA93DD85287BB9C400C17FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA93DD92287BB9C500C17FCE /* Preview Assets.xcassets in Resources */,
+				AA93DD8F287BB9C500C17FCE /* Assets.xcassets in Resources */,
+				AA93DD9A287BBAFE00C17FCE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA93DD83287BB9C400C17FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA93DDA3287BBCB200C17FCE /* LoginView.swift in Sources */,
+				AA93DD8D287BB9C400C17FCE /* ContentView.swift in Sources */,
+				AA93DDB2287C529100C17FCE /* BaseView.swift in Sources */,
+				AA93DDB4287C530400C17FCE /* SideMenu.swift in Sources */,
+				AA93DD8B287BB9C400C17FCE /* WallBoyApp.swift in Sources */,
+				AA26E08D287C7AEF00C537F7 /* Home.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA93DD93287BB9C500C17FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA93DD94287BB9C500C17FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA93DD96287BB9C500C17FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WallBoy/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UYV54B9WB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WallBoy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alaxhenry.WallBoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA93DD97287BB9C500C17FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WallBoy/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UYV54B9WB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WallBoy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alaxhenry.WallBoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA93DD82287BB9C400C17FCE /* Build configuration list for PBXProject "WallBoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA93DD93287BB9C500C17FCE /* Debug */,
+				AA93DD94287BB9C500C17FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA93DD95287BB9C500C17FCE /* Build configuration list for PBXNativeTarget "WallBoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA93DD96287BB9C500C17FCE /* Debug */,
+				AA93DD97287BB9C500C17FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA93DD9B287BBB3100C17FCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		AA93DD9E287BBB8000C17FCE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA93DD9C287BBB3100C17FCE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA93DD9B287BBB3100C17FCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AA93DD9F287BBB8000C17FCE /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA93DD9E287BBB8000C17FCE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA93DD7F287BB9C400C17FCE /* Project object */;
+}
