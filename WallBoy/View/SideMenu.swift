@@ -11,8 +11,6 @@ import GoogleSignIn
 
 struct SideMenu: View {
     
-    @AppStorage("log_Status") var log_Status = true
-    
     @Binding var showMenu: Bool
     
     var body: some View {
@@ -112,13 +110,6 @@ struct SideMenu: View {
                         
                         Button {
                             
-                            GIDSignIn.sharedInstance.signOut()
-                            try? Auth.auth().signOut()
-
-                            withAnimation{
-                                log_Status = false
-                            }
-                            
                         } label: {
                             Image(systemName: "power.circle")
                                 .padding(.trailing)
@@ -201,3 +192,4 @@ extension View{
         return UIScreen.main.bounds
     }
 }
+

@@ -18,6 +18,7 @@
 		AA93DDA3287BBCB200C17FCE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93DDA2287BBCB200C17FCE /* LoginView.swift */; };
 		AA93DDB2287C529100C17FCE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93DDB1287C529100C17FCE /* BaseView.swift */; };
 		AA93DDB4287C530400C17FCE /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93DDB3287C530400C17FCE /* SideMenu.swift */; };
+		AACB48D5287D44850007BCAC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACB48D4287D44850007BCAC /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		AA93DDA2287BBCB200C17FCE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AA93DDB1287C529100C17FCE /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		AA93DDB3287C530400C17FCE /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		AACB48D4287D44850007BCAC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		AA93DD89287BB9C400C17FCE /* WallBoy */ = {
 			isa = PBXGroup;
 			children = (
+				AACB48D3287D44720007BCAC /* Model */,
 				AA93DDA1287BBBB900C17FCE /* Info.plist */,
 				AA93DD99287BBAFE00C17FCE /* GoogleService-Info.plist */,
 				AA93DD98287BB9DE00C17FCE /* View */,
@@ -94,6 +97,14 @@
 				AA26E08C287C7AEF00C537F7 /* Home.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		AACB48D3287D44720007BCAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AACB48D4287D44850007BCAC /* Card.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 			files = (
 				AA93DDA3287BBCB200C17FCE /* LoginView.swift in Sources */,
 				AA93DD8D287BB9C400C17FCE /* ContentView.swift in Sources */,
+				AACB48D5287D44850007BCAC /* Card.swift in Sources */,
 				AA93DDB2287C529100C17FCE /* BaseView.swift in Sources */,
 				AA93DDB4287C530400C17FCE /* SideMenu.swift in Sources */,
 				AA93DD8B287BB9C400C17FCE /* WallBoyApp.swift in Sources */,
